@@ -1,5 +1,5 @@
 
-// [const obj for product (start) ]
+// :- [const obj for product (start) ]
 
 // const product = {
 //     name: "Laptop",
@@ -12,7 +12,7 @@
 // [const obj for product (end) ]
 
 
-// [const obj for profile (start) ]
+// :- [const obj for profile (start) ]
 
 // const profile = {
 //     name: "Ali HAssan",
@@ -27,7 +27,7 @@
 
 // [const obj for profile (end) ]
 
-//  Arthematic Operators
+// :- Arthematic Operators
 
 // {
 // let a = 10;
@@ -44,7 +44,7 @@
 // console.log(a);
 // }
 
-// Short HAnd Assignment Operartors
+// :- Short HAnd Assignment Operartors
 
 // {
 // let x = 10;
@@ -56,7 +56,7 @@
 //  console.log("x%=y =", x%=y);
 // }
 
-// Comparison Operators
+// :- Comparison Operators
 
 // {
 //     let a = 0.3;
@@ -73,12 +73,65 @@
 
 // }
 
-// Logical Operators"
+// :- Logical Operators
 
+// {
+//     let a = 5;
+//     let b = 10;
+
+//     let cond1 = (a < b);  // true
+//     let cond2 = (a > b);  // false
+//     let cond3 = (a == b); // false
+//     let cond4 = (a != b); // true
+//     console.log("cond1 && cond2 :", cond1 && cond2); 
+//     console.log("cond3  || cond4 :", cond3 || cond4);
+// }
+
+// Conditional operators ( Dark and light mode)
+
+// {
+//     let mode = "dark";
+// let color;
+
+// if (mode === "dark") {
+//     color = "black";
+// }
+//  else {
+//     color = "white";
+// }
+
+// console.log("color :", color);
+// }
+
+// Conditional operators ( Odd and Even)
+
+// {
+// let num = 7;
+// let result;
+// if (num % 2 === 0) {
+//     result = "Even";
+// } else {
+//     result = "Odd";
+//     console.log("result :", result);
+// }
+
+// }
+ 
+// Conditional operators ( Weather Report)
 {
-    cond1 = 0.3<0.5;
-    cond2 = 0.5===0.5;
-    console.log("cond1 && cond2 :", cond1 && cond2);
-    console.log("cond1 || cond2 :", cond1 || cond2);
-    console.log("!cond1 :", !cond1);
+let temp = 70;
+
+if (temp < 10) {
+console.log("weather : Cold");
+} 
+else if (temp >= 10 && temp <= 30) {
+console.log("weather : Warm");
+} 
+else if (temp <= 35) {
+console.log("weather : Hot");
+} 
+else {
+console.log("weather :","Diseaster Alert");
+}
+
 }
