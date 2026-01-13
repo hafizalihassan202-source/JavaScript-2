@@ -87,7 +87,7 @@
 //     console.log("cond3  || cond4 :", cond3 || cond4);
 // }
 
-// Conditional operators ( Dark and light mode)
+// :- Conditional operators ( Dark and light mode)
 
 // {
 //     let mode = "dark";
@@ -103,7 +103,7 @@
 // console.log("color :", color);
 // }
 
-// Conditional operators ( Odd and Even)
+// :- Conditional operators ( Odd and Even)
 
 // {
 // let num = 7;
@@ -117,21 +117,71 @@
 
 // }
  
-// Conditional operators ( Weather Report)
+// :- Conditional operators ( Weather Report)
+
+// {
+// let temp = 70;
+
+// if (temp < 10) {
+// console.log("weather : Cold");
+// } 
+// else if (temp >= 10 && temp <= 30) {
+// console.log("weather : Warm");
+// } 
+// else if (temp <= 35) {
+// console.log("weather : Hot");
+// } 
+// else {
+// console.log("weather :","Diseaster Alert");
+// }
+
+// }
+
+// :- Ternary Operator ( Weather Report )
+
+// {
+// let weather = 9;
+// let result = (weather <= 20  ) ? "Weather is good today." : "Weather seems to be hot today." ;
+// console.log("result :", result);
+// }
+
+// :- Display a number, is it a multiple of 5 or not.
+
+// {
+//     let num = prompt("Enter a number:");
+//     if (num % 5 === 0) {
+//         console.log( num," is a multiple of five.");
+//     } else {
+//         console.log(num,"is not a multiple of five.");
+// }
+// }
+
+// :- Display the weather report based on temperature input from user
+
+// {
+//     let temp = prompt("Enter the temperature:");
+//     if (temp <= 10) {
+//         console.log("Weather: Cold");
+// } else if (temp > 10 && temp <= 30) {
+//         console.log("Weather: Warm");
+// } else {
+//         console.log("Weather: Hot");
+// }
+// }
+
+// :- Check the grades on the bases of score input from user
+
 {
-let temp = 70;
-
-if (temp < 10) {
-console.log("weather : Cold");
-} 
-else if (temp >= 10 && temp <= 30) {
-console.log("weather : Warm");
-} 
-else if (temp <= 35) {
-console.log("weather : Hot");
-} 
-else {
-console.log("weather :","Diseaster Alert");
+    let grade = prompt("Enter your score:");
+    if (grade >= 90 && grade <= 100) {
+        console.log("Hey! You got an A");
+} else if (grade >= 80 && grade < 90) {
+        console.log("Grade: B");
+} else if (grade >= 70 && grade < 80) {
+    console.log("Grade: C");
+} else if (grade >= 60 && grade < 70) {
+    console.log("Grade: D");
+} else if (grade >= 0 && grade < 60) {
+    console.log("Grade: YOu are Fail");
 }
-
 }
