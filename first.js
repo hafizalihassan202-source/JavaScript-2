@@ -171,17 +171,63 @@
 
 // :- Check the grades on the bases of score input from user
 
+// {
+//     let grade = prompt("Enter your score:");
+//     if (grade >= 90 && grade <= 100) {
+//         console.log("Hey! You got an A");
+// } else if (grade >= 80 && grade < 90) {
+//         console.log("Grade: B");
+// } else if (grade >= 70 && grade < 80) {
+//     console.log("Grade: C");
+// } else if (grade >= 60 && grade < 70) {
+//     console.log("Grade: D");
+// } else if (grade >= 0 && grade < 60) {
+//     console.log("Grade: YOu are Fail");
+// }
+// }
+
+// :- for loop
+
+// let n =0;
+// for (let i = 1; i <= 5; i++) {
+//     n = n + i;
+// }
+// console.log("Sum :", n);
+
+// :- while loop
+
+// let i=1;
+// while (i <=5) {
+//     console.log("i :", i);
+//     i++;
+// }
+
+// :- All even numbers between 1 to 100
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         console.log("Even Number :", i);
+//     }
+// }
+
+//:- create a game in which user have to guess a number written by a programer
+
+// let n=16202;
+// let guess = prompt("Enter your password.");
+// while (guess != n) {
+//     guess = prompt("Wrong PAssword! Try again:");
+// }
+// console.log("The page is open.");
+
+
+// :- Login Method with correct password
+
 {
-    let grade = prompt("Enter your score:");
-    if (grade >= 90 && grade <= 100) {
-        console.log("Hey! You got an A");
-} else if (grade >= 80 && grade < 90) {
-        console.log("Grade: B");
-} else if (grade >= 70 && grade < 80) {
-    console.log("Grade: C");
-} else if (grade >= 60 && grade < 70) {
-    console.log("Grade: D");
-} else if (grade >= 0 && grade < 60) {
-    console.log("Grade: YOu are Fail");
+let n=16202;
+let v= prompt("Enter Password:");
+while(v!=n){
+    v= prompt("Wrong Password! Enter Again:");
 }
+alert("Correct Password! Access Granted.");
+console.log("Access Granted");
 }
