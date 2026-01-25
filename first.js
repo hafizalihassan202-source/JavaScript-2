@@ -222,12 +222,45 @@
 
 // :- Login Method with correct password
 
-{
-let n=16202;
-let v= prompt("Enter Password:");
-while(v!=n){
-    v= prompt("Wrong Password! Enter Again:");
-}
-alert("Correct Password! Access Granted.");
-console.log("Access Granted");
-}
+// {
+// let n=16202;
+// let v= prompt("Enter Password:");
+// while(v!=n){
+//     v= prompt("Wrong Password! Enter Again:");
+// }
+// alert("Correct Password! Access Granted.");
+// console.log("Access Granted");
+// }
+
+// :- Strings
+
+// let str="Hello";
+// console.log(str[0]);
+
+// :- Template Literals
+
+// let obj = {
+//     name: "Ali Hassan",
+//     age: 18,
+// }
+
+// let output = `My name is ${obj.name} and I am ${obj.age} years old and my salary is ${5700+67000}.`;
+// console.log(output);
+
+// :- Escape Sequences ( New line, Tab, Backslash )
+
+// let str = "Ali\nHAssan";
+// console.log(str);
+
+// :- String Methods ( toUpperCase, toLowerCase, trim )
+
+
+let str = "Ali\nHAssan";
+console.log(str);
+ let newStr = str.toUpperCase();
+ console.log(newStr);
+
+
+
+
+
