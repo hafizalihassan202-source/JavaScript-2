@@ -90,7 +90,7 @@
 // :- Conditional operators ( Dark and light mode)
 
 // {
-//     let mode = "dark";
+//     let mode = "blue";
 // let color;
 
 // if (mode === "dark") {
@@ -98,6 +98,7 @@
 // }
 //  else {
 //     color = "white";
+// }
 // }
 
 // console.log("color :", color);
@@ -181,7 +182,7 @@
 //     console.log("Grade: C");
 // } else if (grade >= 60 && grade < 70) {
 //     console.log("Grade: D");
-// } else if (grade >= 0 && grade < 60) {
+// } else  {
 //     console.log("Grade: YOu are Fail");
 // }
 // }
@@ -232,17 +233,17 @@
 // console.log("Access Granted");
 // }
 
-// :- Strings
+// :- Strings 
 
 // let str="Hello";
-// console.log(str[0]);
+// console.log(str[0]); // [] it shows the index of the string and it starts from 0
 
 // :- Template Literals
 
-// let obj = {
-//     name: "Ali Hassan",
-//     age: 18,
-// }
+// // let obj = {
+// //     name: "Ali Hassan",
+// //     age: 18,
+// // }
 
 // let output = `My name is ${obj.name} and I am ${obj.age} years old and my salary is ${5700+67000}.`;
 // console.log(output);
