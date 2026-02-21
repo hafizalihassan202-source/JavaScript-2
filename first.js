@@ -256,10 +256,30 @@
 // :- String Methods ( toUpperCase, toLowerCase, trim )
 
 
-let str = "Ali\nHAssan";
-console.log(str);
- let newStr = str.toUpperCase();
- console.log(newStr);
+// let str = "Ali\nHAssan";
+// console.log(str);
+//  let newStr = str.toUpperCase();
+//  console.log(newStr);
+ 
+
+// // :- String Methods ( slice, concat, replace, charAt )
+ 1 // {
+// let str = "Hello World!";
+// // let slicedStr = str.slice(3, 8);
+// // console.log("Sliced String :", slicedStr);
+// // }
+ 2
+// let str1 = "Hello World!";
+// let str2 = " 'Welcome to JavaScript' ";
+// let str3 = str1.concat(str2);
+// console.log("Concatenated String :", str3);
+// console.log(str1.replace("World", "Everyone"));
+
+// :-TAke full name from user and make its user name
+
+// let fullName = prompt("Enter your full name without spaces:"); 
+// let userName = "@" + fullName.toLowerCase() + fullName.length; 
+// console.log("Your username is :", userName);
 
 
 
