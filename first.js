@@ -7,7 +7,7 @@
 //     inStock: true,
 //     rattings: 4.5,
 // }
-// console.log(product);
+//  console.log(product);
 
 // [const obj for product (end) ]
 
@@ -99,22 +99,22 @@
 //  else {
 //     color = "white";
 // }
-// }
 
-// console.log("color :", color);
+
+// console.log("color :",color);
 // }
 
 // :- Conditional operators ( Odd and Even)
 
 // {
-// let num = 7;
+// let num = 221;
 // let result;
 // if (num % 2 === 0) {
 //     result = "Even";
 // } else {
 //     result = "Odd";
-//     console.log("result :", result);
 // }
+//     console.log("result :", result);
 
 // }
  
@@ -211,15 +211,15 @@
 //     }
 // }
 
-//:- create a game in which user have to guess a number written by a programer
-
+// //:- create a game in which user have to guess a number written by a programer
+// {
 // let n=16202;
 // let guess = prompt("Enter your password.");
 // while (guess != n) {
 //     guess = prompt("Wrong PAssword! Try again:");
 // }
 // console.log("The page is open.");
-
+// }
 
 // :- Login Method with correct password
 
@@ -240,10 +240,10 @@
 
 // :- Template Literals
 
-// // let obj = {
-// //     name: "Ali Hassan",
-// //     age: 18,
-// // }
+// let obj = {
+ //     name: "Ali Hassan",
+ //     age: 18,
+ // }
 
 // let output = `My name is ${obj.name} and I am ${obj.age} years old and my salary is ${5700+67000}.`;
 // console.log(output);
@@ -282,6 +282,33 @@
 // console.log("Your username is :", userName);
 
 
+// :- Array
+
+// let marks = [85, 90, 78, 92, 88];
+// console.log(marks); 
+// console.log(marks[4]);
+// marks[2] = 80;
+// console.log(marks);
 
 
+// Q#1 calculate the average of marks
 
+
+// let marks = [85, 90, 78, 92, 88];
+// let sum = 0;
+// for (let mark of marks) {
+//     sum += mark;
+// }
+// let average = sum / marks.length;
+// console.log(`Average of marks is: ${average}`); // template litteral may number beh string may convert krta hai isliye ${} ka use krte hain
+
+
+// Q#2 Apply 10% offer on all product items.
+
+// let prices = [100, 200, 300, 400, 500];
+
+// for (let i = 0; i < prices.length; i++) {
+// let offer = prices[i] / 10;
+// prices[i] = prices[i] - offer;
+// }
+// console.log("Prices after 10% offer:", prices);
